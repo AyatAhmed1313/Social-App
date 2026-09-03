@@ -31,7 +31,7 @@ let [postWillUpdated,setPostUpdated]=useState()
   <div className='px-[10px] sm:px-[20px] lg:px-[40px] pt-[70px]'>
     
     {isLoading ||userData==undefined &&<LoadingSkeletonPostCard/>}
-    {isFetched &&data.data.posts.map((userPost)=><PostCard setPostUpdated={setPostUpdated} setActivePostId={setActivePostId} setIsOpen={setIsOpen} key={userPost._id} post={userPost} setIsOpen={setIsOpen} />)}
+    {isFetched &&data.data.posts.map((userPost)=><PostCard setPostUpdated={setPostUpdated} setActivePostId={setActivePostId} setIsOpen={setIsOpen} key={userPost._id} post={userPost} />)}
   
   </div>
   <CommentsWrapper activePostId={activePostId} isOpen={isOpen} setIsOpen={setIsOpen}/>
