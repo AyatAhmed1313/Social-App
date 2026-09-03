@@ -1,5 +1,5 @@
 import PostCard from '@/Components/Card/PostCard'
-import {CommentsWrapper} from '@/Components/CommentsWrapper/CommentsWrapper'
+// import {CommentsWrapper} from '@/Components/CommentsWrapper/CommentsWrapper'
 import LoadingSkeletonPostCard from '@/Components/LoadingSkeleton/LoadingSkeletonPostCard'
 import usePosts from '@/CustomHook/usePosts'
 import React, { useState } from 'react'

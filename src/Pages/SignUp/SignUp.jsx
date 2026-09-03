@@ -9,8 +9,8 @@ import {
   FieldLegend,
   FieldSeparator,
   FieldSet,
-} from "@/components/ui/field";
-import { Input } from "@/components/ui/input";
+} from "@/Components/ui/field";
+import { Input } from "@/Components/ui/input";
 // import {
 //   Select,
 //   SelectContent,
